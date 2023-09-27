@@ -1,0 +1,394 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/weiya/OneDrive/Desktop/CPEN_Verilog/lab6
+vALU
+Z0 !s110 1638475620
+!i10b 1
+!s100 LN93jXH6zF7Z5Lbjf;7:>3
+IZ?A;EFYjB_VDjE]Yc_S0[2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/weiya/OneDrive/Desktop/CPEN_Verilog/lab7
+w1637743677
+8C:/Users/weiya/OneDrive/Desktop/CPEN_Verilog/lab7/alu.v
+FC:/Users/weiya/OneDrive/Desktop/CPEN_Verilog/lab7/alu.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1638475620.000000
+!s107 C:/Users/weiya/OneDrive/Desktop/CPEN_Verilog/lab7/alu.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/weiya/OneDrive/Desktop/CPEN_Verilog/lab7/alu.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+n@a@l@u
+vcpu
+R0
+!i10b 1
+!s100 P]QEHVPm]LPbHjWoGdTX10
+IkXR3bNQ3A086<G0D3_zd?2
+R1
+R2
+Z7 w1638426143
+Z8 8C:/Users/weiya/OneDrive/Desktop/CPEN_Verilog/lab7/cpu.v
+Z9 FC:/Users/weiya/OneDrive/Desktop/CPEN_Verilog/lab7/cpu.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+Z10 !s107 C:/Users/weiya/OneDrive/Desktop/CPEN_Verilog/lab7/cpu.v|
+Z11 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/weiya/OneDrive/Desktop/CPEN_Verilog/lab7/cpu.v|
+!i113 1
+R5
+R6
+vcpu_tb
+R0
+!i10b 1
+!s100 A=KflT50zNJ`cM>GHP@eH3
+ITPkDZdAlkcVEUKc;dC4ON3
+R1
+R2
+w1637805336
+8C:/Users/weiya/OneDrive/Desktop/CPEN_Verilog/lab7/cpu_tb.v
+FC:/Users/weiya/OneDrive/Desktop/CPEN_Verilog/lab7/cpu_tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/weiya/OneDrive/Desktop/CPEN_Verilog/lab7/cpu_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/weiya/OneDrive/Desktop/CPEN_Verilog/lab7/cpu_tb.v|
+!i113 1
+R5
+R6
+vdatapath
+R0
+!i10b 1
+!s100 PDY]eZOJ<1D<bQ`G?4l_:2
+ISEbC_<>XcdCT3E2PS16[22
+R1
+R2
+Z12 w1638384928
+Z13 8C:/Users/weiya/OneDrive/Desktop/CPEN_Verilog/lab7/datapath.v
+Z14 FC:/Users/weiya/OneDrive/Desktop/CPEN_Verilog/lab7/datapath.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+Z15 !s107 C:/Users/weiya/OneDrive/Desktop/CPEN_Verilog/lab7/datapath.v|
+Z16 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/weiya/OneDrive/Desktop/CPEN_Verilog/lab7/datapath.v|
+!i113 1
+R5
+R6
+vDec
+R0
+!i10b 1
+!s100 Jb3NVMi48n3=2<Q=0^kG?1
+IFg^a6kb4YJ?f_Td_Q197]1
+R1
+R2
+Z17 w1637652025
+Z18 8C:/Users/weiya/OneDrive/Desktop/CPEN_Verilog/lab7/regfile.v
+Z19 FC:/Users/weiya/OneDrive/Desktop/CPEN_Verilog/lab7/regfile.v
+L0 51
+R3
+r1
+!s85 0
+31
+R4
+Z20 !s107 C:/Users/weiya/OneDrive/Desktop/CPEN_Verilog/lab7/regfile.v|
+Z21 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/weiya/OneDrive/Desktop/CPEN_Verilog/lab7/regfile.v|
+!i113 1
+R5
+R6
+n@dec
+vEqComp
+R0
+!i10b 1
+!s100 ]jDPM;POEM8>gQdM6P5kn3
+I?ZW[?3BFY8YZYWLB6aH:E0
+R1
+R2
+Z22 w1638475618
+Z23 8C:/Users/weiya/OneDrive/Desktop/CPEN_Verilog/lab7/lab7_top.v
+Z24 FC:/Users/weiya/OneDrive/Desktop/CPEN_Verilog/lab7/lab7_top.v
+L0 169
+R3
+r1
+!s85 0
+31
+Z25 !s108 1638475619.000000
+Z26 !s107 C:/Users/weiya/OneDrive/Desktop/CPEN_Verilog/lab7/lab7_top.v|
+Z27 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/weiya/OneDrive/Desktop/CPEN_Verilog/lab7/lab7_top.v|
+!i113 1
+R5
+R6
+n@eq@comp
+vflip
+R0
+!i10b 1
+!s100 `fHmX2c02_mS@?3ZlzfHJ3
+I[^47AN`DP;VY`KkGmWm;m0
+R1
+R2
+R17
+R18
+R19
+Z28 L0 62
+R3
+r1
+!s85 0
+31
+R4
+R20
+R21
+!i113 1
+R5
+R6
+vinstruction_decode
+R0
+!i10b 1
+!s100 gLLn=J:O8Ye?^U@G4o2B=2
+I<dZ=CF8bQAQRHEm>KFb?J2
+R1
+R2
+R7
+R8
+R9
+L0 254
+R3
+r1
+!s85 0
+31
+R4
+R10
+R11
+!i113 1
+R5
+R6
+vlab7_check_tb
+R0
+!i10b 1
+!s100 Q:E0X=D<?8Q?H8W0JgiTY0
+IE5GVZfjDLVKinS7?Ag^f<0
+R1
+R2
+w1638420368
+8C:/Users/weiya/OneDrive/Desktop/CPEN_Verilog/lab7/lab7_autograder_check.v
+FC:/Users/weiya/OneDrive/Desktop/CPEN_Verilog/lab7/lab7_autograder_check.v
+L0 7
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/weiya/OneDrive/Desktop/CPEN_Verilog/lab7/lab7_autograder_check.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/weiya/OneDrive/Desktop/CPEN_Verilog/lab7/lab7_autograder_check.v|
+!i113 1
+R5
+R6
+vlab7_top
+Z29 !s110 1638475619
+!i10b 1
+!s100 cKFXelWGC`9K>EMl`h?602
+Io^o@GG<1gMFYL`E<Q5ETe2
+R1
+R2
+R22
+R23
+R24
+L0 1
+R3
+r1
+!s85 0
+31
+R25
+R26
+R27
+!i113 1
+R5
+R6
+vmux
+R0
+!i10b 1
+!s100 GPEbMK[ICee[>RgX`KiX>3
+IXNC]b?0^>f5bfXMU_Zf<13
+R1
+R2
+R12
+R13
+R14
+L0 37
+R3
+r1
+!s85 0
+31
+R4
+R15
+R16
+!i113 1
+R5
+R6
+vRAM
+R29
+!i10b 1
+!s100 mRl]^X=mk88ld8FKXf[Bf2
+I1Bm3Y8G[A<9@>]80S]cCm2
+R1
+R2
+R22
+R23
+R24
+L0 71
+R3
+r1
+!s85 0
+31
+R25
+R26
+R27
+!i113 1
+R5
+R6
+n@r@a@m
+vregfile
+R0
+!i10b 1
+!s100 n`>kND@oQ:kh]i0Noc4W52
+IVn1=HWC1@?:1aO<mA4SL^0
+R1
+R2
+R17
+R18
+R19
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R20
+R21
+!i113 1
+R5
+R6
+vshifter
+R0
+!i10b 1
+!s100 lbG=LDdF]Kk7HJ=DRkh251
+I90e8>hUc8i`6=iPR@kcBN0
+R1
+R2
+w1637101116
+8C:/Users/weiya/OneDrive/Desktop/CPEN_Verilog/lab7/shifter.v
+FC:/Users/weiya/OneDrive/Desktop/CPEN_Verilog/lab7/shifter.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/weiya/OneDrive/Desktop/CPEN_Verilog/lab7/shifter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/weiya/OneDrive/Desktop/CPEN_Verilog/lab7/shifter.v|
+!i113 1
+R5
+R6
+vsseg
+R29
+!i10b 1
+!s100 17FV?H;Fhc1`eQOAY0Qd;1
+ImgfG]c[^>BULhC9bc<MTc0
+R1
+R2
+R22
+R23
+R24
+L0 97
+R3
+r1
+!s85 0
+31
+R25
+R26
+R27
+!i113 1
+R5
+R6
+vstate_machine
+R0
+!i10b 1
+!s100 kcS[b6kWLQTgYo[n^@E0m3
+I6gLH?4`Z;>Dc@[=>SS4YT3
+R1
+R2
+R7
+R8
+R9
+R28
+R3
+r1
+!s85 0
+31
+R4
+R10
+R11
+!i113 1
+R5
+R6
+vvDFF_states
+R0
+!i10b 1
+!s100 b1jzJ1HfDeOIkbG3HegRP3
+I`QARTdnG2R0UDVAi<n^Gd2
+R1
+R2
+R7
+R8
+R9
+L0 337
+R3
+r1
+!s85 0
+31
+R4
+R10
+R11
+!i113 1
+R5
+R6
+nv@d@f@f_states
+vvDFFE
+R0
+!i10b 1
+!s100 Pck?0X77f5MEIzX^im@NV2
+Ie2HDz2K@]MUWGJ0X;S3`X0
+R1
+R2
+R12
+R13
+R14
+L0 53
+R3
+r1
+!s85 0
+31
+R4
+R15
+R16
+!i113 1
+R5
+R6
+nv@d@f@f@e

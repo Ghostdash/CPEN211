@@ -1,0 +1,70 @@
+module datapath(clk,readnum,vsel,loada,loadb,shift,asel,bsel,ALUop,loadc,loads,writenum,write,mdata,PC,sximm8,sximm5,status_out,datapath_out);
+  input clk,loada,loadb,asel,bsel,loadc,loads,write;
+  input [1:0] vsel;                             //vsel is now a 2 bit value
+  input [2:0] readnum,writenum;
+  input [1:0] ALUop,shift;
+  input [15:0] sximm8,sximm5;                         //output of instruction decoder
+  input [15:0] mdata;
+  input [8:0] PC;
+  output [15:0] datapath_out; 
+  output [2:0] status_out; 
+
+  wire N,V,Z;
+  wire [2:0] status_in;                           
+  wire [15:0] stored_num;                         //wire the outputs of the sub_modules
+  wire [15:0] A,B,B_shift;
+  wire [15:0] data_selected;
+  wire [15:0] Ain,Bin,ALU_out;
+
+  assign status_in = {N,V,Z};                        //group the status registers together
+
+  mux SelectData(mdata,sximm8,PC,datapath_out,vsel,data_selected);
+
+  vDFFE #16 LoadA(clk,loada,stored_num,A);                                  //instantiate the modules
+  vDFFE #16 LoadB(clk,loadb,stored_num,B);
+  vDFFE #16 LoadC(clk,loadc,ALU_out,datapath_out);
+  vDFFE #3  LoadS(clk,loads,status_in,status_out);                          //load status
+
+  regfile REGFILE(data_selected,writenum,write,readnum,clk,stored_num); 
+  ALU alu(Ain,Bin,ALUop,ALU_out,N,V,Z);
+  shifter Shift(B,shift,B_shift);
+
+  assign Ain = asel? {16{1'b0}} : A ;                          //implement a mux for A
+  assign Bin = bsel? sximm5 : B_shift ;                        // implement a mux for B
+
+endmodule
+
+module mux (mdata,sximm8,PC,C,vsel,data_selected);
+  input [15:0] mdata, sximm8, C;
+  input [8:0] PC;
+  input [1:0] vsel;
+
+  output reg [15:0] data_selected;
+
+  always @(*)
+	case(vsel)
+	    2'b00: data_selected = mdata;
+	    2'b01: data_selected = sximm8;
+	    2'b10: data_selected = {7'b00000000,PC};
+	    2'b11: data_selected = C;
+	endcase
+endmodule 
+
+module vDFFE(clk, en, in, out) ;                               //modified vDFF for loading values
+  parameter n = 1;  // width
+  input clk, en ;
+  input  [n-1:0] in ;
+  output [n-1:0] out ;
+  reg    [n-1:0] out ;
+  wire   [n-1:0] next_out ;
+
+  assign next_out = en ? in : out;
+
+  always @(posedge clk)
+    out = next_out;  
+endmodule
+
+  
+  
+
+  

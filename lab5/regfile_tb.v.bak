@@ -1,0 +1,89 @@
+module regfile_tb();
+  reg [15:0] data_in;
+  reg [2:0] writenum, readnum;
+  reg write, clk;
+  reg [7:0] register_w,register_r; 
+  reg ld0,ld1,ld2,ld3,ld4,ld5,ld6,ld7;
+
+  wire [15:0] data_out;
+  
+  reg err;
+  regfile DUT (data_in,writenum,write,readnum,clk,data_out);
+
+
+  initial begin
+    data_in = 16'b0000000000000111;
+    writenum = 3'b001;
+    readnum = 3'b001;
+    write = 1'b1;
+    clk = 1'b0; 
+    err = 1'b0;
+     
+   #5;
+    if (data_out!={16{1'bx}})
+	err = 1'b1;
+    $display ("output is %b, expected %b",data_out,{16{1'bx}});
+    clk = 1'b1;
+   #5;
+    if (data_out!=16'b0000000000000111)
+	err = 1'b1;
+    $display ("output is %b, expected %b",data_out,16'b0000000000000111);
+    writenum = 3'b011;
+    write = 1'b1;
+    data_in = 16'b0000000000001011;
+    clk = 1'b0;
+   #5;
+    if (data_out!=16'b0000000000000111)
+	err = 1'b1;
+    $display ("output is %b, expected %b",data_out,16'b0000000000000111); 
+    readnum = 3'b011;
+    clk = 1'b1;
+   #5;
+    if (data_out!=16'b0000000000001011)
+	err = 1'b1;
+    $display ("output is %b, expected %b",data_out,16'b0000000000001011); 
+    readnum = 3'b001;
+   #5;
+    if (data_out!=16'b0000000000000111)
+	err = 1'b1;
+    $display ("output is %b, expected %b",data_out,16'b0000000000000111);
+    writenum = 3'b111;
+    write = 1'b1;
+    data_in = 16'b0000000000001001;
+    clk = 1'b0;
+    readnum = 3'b111;
+   #5;
+    if (data_out!={16{1'bx}})
+	err = 1'b1;
+    $display ("output is %b, expected %b",data_out,{16{1'bx}});
+    clk = 1'b1;
+   #5;
+    if (data_out!=16'b0000000000001001)
+	err = 1'b1;
+    $display ("output is %b, expected %b",data_out,16'b0000000000001001); 
+    readnum = 3'b011;
+   #5;
+    if (data_out!=16'b0000000000001011)
+	err = 1'b1;
+    $display ("output is %b, expected %b",data_out,16'b0000000000001011);
+
+   #5;
+    writenum = 3'b100;
+    readnum = 3'b100;
+    write = 1'b0;
+    data_in = 16'b0000000000111001;
+    clk = 1'b0;
+   #5;
+    if (data_out!={16{1'bx}})
+	err = 1'b1;
+    $display ("output is %b, expected %b",data_out,{16{1'bx}});   
+    write = 1'b1;
+   #5;  
+    clk = 1'b1; 
+   #5;
+    if (data_out!=16'b0000000000111001)
+	err = 1'b1;
+    $display ("output is %b, expected %b",data_out,16'b0000000000111001);     
+    $stop;
+  end
+endmodule

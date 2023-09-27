@@ -1,0 +1,261 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'cpu:U|instruction_decode:Decoder|op[0]'
+Slack : -10.932
+TNS   : -49.592
+
+Type  : Slow 1100mV 85C Model Setup 'cpu:U|state_machine:Moore|vDFF_states:Moore|out[1]'
+Slack : -10.672
+TNS   : -56.923
+
+Type  : Slow 1100mV 85C Model Setup 'KEY[0]'
+Slack : -9.853
+TNS   : -890.614
+
+Type  : Slow 1100mV 85C Model Setup 'cpu:U|vDFF:Instruction_Register|Q[13]'
+Slack : -5.977
+TNS   : -97.695
+
+Type  : Slow 1100mV 85C Model Setup 'KEY[3]'
+Slack : -1.708
+TNS   : -23.415
+
+Type  : Slow 1100mV 85C Model Hold 'KEY[0]'
+Slack : -6.711
+TNS   : -1087.570
+
+Type  : Slow 1100mV 85C Model Hold 'cpu:U|state_machine:Moore|vDFF_states:Moore|out[1]'
+Slack : 0.380
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'cpu:U|vDFF:Instruction_Register|Q[13]'
+Slack : 0.470
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'KEY[3]'
+Slack : 0.603
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'cpu:U|instruction_decode:Decoder|op[0]'
+Slack : 0.616
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'KEY[0]'
+Slack : -0.394
+TNS   : -108.682
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'KEY[3]'
+Slack : -0.394
+TNS   : -9.884
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -0.394
+TNS   : -8.473
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'cpu:U|vDFF:Instruction_Register|Q[13]'
+Slack : 0.138
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'cpu:U|state_machine:Moore|vDFF_states:Moore|out[1]'
+Slack : 0.331
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'cpu:U|instruction_decode:Decoder|op[0]'
+Slack : 0.400
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Setup 'cpu:U|instruction_decode:Decoder|op[0]'
+Slack : -10.703
+TNS   : -48.586
+
+Type  : Slow 1100mV 0C Model Setup 'cpu:U|state_machine:Moore|vDFF_states:Moore|out[1]'
+Slack : -10.480
+TNS   : -55.998
+
+Type  : Slow 1100mV 0C Model Setup 'KEY[0]'
+Slack : -9.358
+TNS   : -852.063
+
+Type  : Slow 1100mV 0C Model Setup 'cpu:U|vDFF:Instruction_Register|Q[13]'
+Slack : -5.940
+TNS   : -96.930
+
+Type  : Slow 1100mV 0C Model Setup 'KEY[3]'
+Slack : -1.702
+TNS   : -23.987
+
+Type  : Slow 1100mV 0C Model Hold 'KEY[0]'
+Slack : -6.627
+TNS   : -1068.596
+
+Type  : Slow 1100mV 0C Model Hold 'cpu:U|state_machine:Moore|vDFF_states:Moore|out[1]'
+Slack : 0.286
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'cpu:U|vDFF:Instruction_Register|Q[13]'
+Slack : 0.351
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'cpu:U|instruction_decode:Decoder|op[0]'
+Slack : 0.472
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'KEY[3]'
+Slack : 0.731
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'KEY[0]'
+Slack : -0.394
+TNS   : -101.625
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'KEY[3]'
+Slack : -0.394
+TNS   : -10.164
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -0.394
+TNS   : -9.032
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'cpu:U|vDFF:Instruction_Register|Q[13]'
+Slack : 0.083
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'cpu:U|state_machine:Moore|vDFF_states:Moore|out[1]'
+Slack : 0.328
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'cpu:U|instruction_decode:Decoder|op[0]'
+Slack : 0.404
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Setup 'cpu:U|instruction_decode:Decoder|op[0]'
+Slack : -6.440
+TNS   : -28.999
+
+Type  : Fast 1100mV 85C Model Setup 'cpu:U|state_machine:Moore|vDFF_states:Moore|out[1]'
+Slack : -6.260
+TNS   : -32.396
+
+Type  : Fast 1100mV 85C Model Setup 'KEY[0]'
+Slack : -6.234
+TNS   : -536.449
+
+Type  : Fast 1100mV 85C Model Setup 'cpu:U|vDFF:Instruction_Register|Q[13]'
+Slack : -3.229
+TNS   : -52.721
+
+Type  : Fast 1100mV 85C Model Setup 'KEY[3]'
+Slack : -0.551
+TNS   : -6.215
+
+Type  : Fast 1100mV 85C Model Hold 'KEY[0]'
+Slack : -4.027
+TNS   : -650.973
+
+Type  : Fast 1100mV 85C Model Hold 'cpu:U|state_machine:Moore|vDFF_states:Moore|out[1]'
+Slack : 0.190
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'KEY[3]'
+Slack : 0.259
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'cpu:U|vDFF:Instruction_Register|Q[13]'
+Slack : 0.399
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'cpu:U|instruction_decode:Decoder|op[0]'
+Slack : 0.466
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'KEY[0]'
+Slack : -0.318
+TNS   : -56.876
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -0.088
+TNS   : -1.368
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'KEY[3]'
+Slack : -0.057
+TNS   : -0.869
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'cpu:U|vDFF:Instruction_Register|Q[13]'
+Slack : 0.207
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'cpu:U|state_machine:Moore|vDFF_states:Moore|out[1]'
+Slack : 0.323
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'cpu:U|instruction_decode:Decoder|op[0]'
+Slack : 0.386
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'cpu:U|instruction_decode:Decoder|op[0]'
+Slack : -6.069
+TNS   : -27.578
+
+Type  : Fast 1100mV 0C Model Setup 'cpu:U|state_machine:Moore|vDFF_states:Moore|out[1]'
+Slack : -5.918
+TNS   : -30.947
+
+Type  : Fast 1100mV 0C Model Setup 'KEY[0]'
+Slack : -5.346
+TNS   : -444.310
+
+Type  : Fast 1100mV 0C Model Setup 'cpu:U|vDFF:Instruction_Register|Q[13]'
+Slack : -2.993
+TNS   : -50.162
+
+Type  : Fast 1100mV 0C Model Setup 'KEY[3]'
+Slack : -0.467
+TNS   : -5.226
+
+Type  : Fast 1100mV 0C Model Hold 'KEY[0]'
+Slack : -3.977
+TNS   : -649.323
+
+Type  : Fast 1100mV 0C Model Hold 'cpu:U|state_machine:Moore|vDFF_states:Moore|out[1]'
+Slack : 0.189
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'KEY[3]'
+Slack : 0.236
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'cpu:U|vDFF:Instruction_Register|Q[13]'
+Slack : 0.349
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'cpu:U|instruction_decode:Decoder|op[0]'
+Slack : 0.367
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'KEY[0]'
+Slack : -0.316
+TNS   : -55.922
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -0.087
+TNS   : -1.353
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'KEY[3]'
+Slack : -0.081
+TNS   : -1.099
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'cpu:U|vDFF:Instruction_Register|Q[13]'
+Slack : 0.238
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'cpu:U|state_machine:Moore|vDFF_states:Moore|out[1]'
+Slack : 0.348
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'cpu:U|instruction_decode:Decoder|op[0]'
+Slack : 0.405
+TNS   : 0.000
+
+------------------------------------------------------------
